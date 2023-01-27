@@ -1,10 +1,24 @@
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* Type all of your code in here! */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
-/* /////////////////////////////// */
+.grid-wrapper {
+    display: flexbox;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.fruit-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.veggie-box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.beverage-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
